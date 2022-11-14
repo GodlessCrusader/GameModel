@@ -8,8 +8,8 @@
             Tokens = new List<Token>();
             Grid = new Grid();
             BoardImages = new List<BoardImage>();
-            Height = 1000;
-            Width = 2000;
+            Height = 3000;
+            Width = 3000;
         }
         public string Name { get; set; }
         public List<Token> Tokens { get; set; }

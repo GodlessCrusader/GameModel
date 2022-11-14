@@ -4,7 +4,7 @@
     {
         public Grid()
         {
-            Size = 50;
+            Size = 25;
             LineWidth = 1;
             Type = GridType.Square;
         }
