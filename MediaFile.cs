@@ -14,6 +14,8 @@ namespace GameModel
 
         public string UserDisplayName { get; set; }
 
+        
+
         public long Size { get; set; }
 
         public MediaType Type { get; set; }
