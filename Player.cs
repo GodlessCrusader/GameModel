@@ -8,15 +8,18 @@ namespace GameModel
         {
 
         }
-        public Player(string name, Role role)
+        public Player(string username, string displayName, Role role)
         {
-            GameName = name;
+            Username = username;
+            DisplayName = displayName;
             Role = role;
         }
 
-        public string GameName { get; set; }
+        public string Username { get; set; }
+        public string DisplayName { get; set; }
         public Role Role { get; set; }
         public List<Token>? ControlledTokens { get; set; }
+        public bool IsOnline { get; set; }
     }
     public enum Role
     {
