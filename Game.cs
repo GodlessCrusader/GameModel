@@ -29,6 +29,12 @@ namespace GameModel
 
         }
 
+        public enum ModificationType
+        {
+            Chat = 0,
+            Board = 1,
+            Music = 2
+        }
     }
 
 }
